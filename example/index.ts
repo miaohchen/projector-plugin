@@ -6,10 +6,11 @@ import {ProjectorDisplayer, ProjectorPlugin} from "@netless/projector-plugin";
 import "./index.css";
 import { bindControlPanel } from "./controlPanel";
 
-const whiteBoardAppientirId = ""
-const whiteBoardSDKToken = ""
-const debugRoomId = "";
-const debugRoomToken = "";
+const whiteBoardAppientirId = "PmRmgG6hEeymqYk1NAWK1w/Qj9hL8x9lgvAcQ"
+const whiteBoardSDKToken = "NETLESSSDK_YWs9c1Z6bmpfQi1pTkRNQVJtNiZub25jZT1mNWRjNTA5MC1kYzlmLTExZWMtOTRhOC1iMzhlMGYxY2U3NDcmcm9sZT0wJnNpZz01OTg5OGNjNjQyODMxZTc4YmEyYjA4NDMzOTQwYjdkNTQzOGMyYmQ4OGM3NTliZWY2NjBkNjYyZjdlMGQ4ZmU2"
+const debugRoomId = "3a014160dca811ec90eae11c4399a26a";
+const debugRoomToken = "NETLESSROOM_YWs9eTBJOWsxeC1IVVo4VGh0NyZub25jZT0xNjUzNTM3NTYzMTE2MDAmcm9sZT0wJnNpZz1jZDFmN2Y1YWNkMTkwYjk3Mjg0NTc1NTFlYjc2M2MwODY3YzIxYjBhOWQ0YzQ3ZGZmNTFmNjIxZTE2ZGRhMzVkJnV1aWQ9M2EwMTQxNjBkY2E4MTFlYzkwZWFlMTFjNDM5OWEyNmE";
+
 
 const whiteboard = new WhiteWebSdk({
     appIdentifier: whiteBoardAppientirId,
